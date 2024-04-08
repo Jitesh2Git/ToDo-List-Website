@@ -65,6 +65,9 @@ ul li {
   background-color: lightcyan;
   border-radius: 20px;
   margin-top: 10px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
 }
 ul li::before {
   content: "";
@@ -118,7 +121,8 @@ ul li span:hover {
     margin-bottom: 10px;
   }
   #input-btn {
-    margin-right: 20px;
+    margin-left: -20px;
+    border-radius: 20px;
   }
   ul li {
     font-size: 16px;
